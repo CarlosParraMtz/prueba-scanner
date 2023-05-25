@@ -69,24 +69,24 @@ export default function ContenedorLista() {
   };
 
   useEffect(() => {
+    if (window != undefined) {
+      // Función para cargar más elementos cuando se llega al final de la página
+      const handleScroll = () => {
+        if (window.innerHeight + document.documentElement.scrollTop
+          === document.documentElement.offsetHeight) {
+          cargarMasElementos(lista.length + 10)
+        }
+      };
 
-    // Función para cargar más elementos cuando se llega al final de la página
-    const handleScroll = () => {
-      if (window.innerHeight + document.documentElement.scrollTop
-        === document.documentElement.offsetHeight) {
-        cargarMasElementos(lista.length + 10)
-      }
-    };
+      // Agregar el evento de scroll al objeto window
+      window.addEventListener('scroll', handleScroll);
 
-    // Agregar el evento de scroll al objeto window
-    window.addEventListener('scroll', handleScroll);
+      // Eliminar el evento de scroll al desmontar el componente
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
 
-    // Eliminar el evento de scroll al desmontar el componente
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-
-
+    }
 
 
 
@@ -124,15 +124,19 @@ export default function ContenedorLista() {
   const [isNavVisible, setIsNavVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const handleScroll = () => {
-    setIsNavVisible(prevScrollPos > window.scrollY || window.scrollY < 70);
-    setPrevScrollPos(window.scrollY);
+    if (window != undefined) {
+      setIsNavVisible(prevScrollPos > window.scrollY || window.scrollY < 70);
+      setPrevScrollPos(window.scrollY);
+    }
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    if (window != undefined) {
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
   }, [handleScroll]);
 
 
@@ -170,7 +174,7 @@ export default function ContenedorLista() {
               <span><b>Escanea el código</b></span>
             </div>
             <ReactBarcodeReader
-              onScan={handleScan} 
+              onScan={handleScan}
               onError={(error) => console.log(error)}
             />
           </div>

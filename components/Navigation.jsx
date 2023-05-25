@@ -11,14 +11,18 @@ export default function Navigation() {
   const [isNavVisible, setIsNavVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const handleScroll = () => {
-    setIsNavVisible(prevScrollPos > window.scrollY || window.scrollY < 70);
-    setPrevScrollPos(window.scrollY);
+    if (window != undefined) {
+      setIsNavVisible(prevScrollPos > window.scrollY || window.scrollY < 70);
+      setPrevScrollPos(window.scrollY);
+    }
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
+    if (window != undefined) {
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      }
     };
   }, [handleScroll]);
 
