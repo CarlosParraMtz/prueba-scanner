@@ -11,14 +11,14 @@ export default function Navigation() {
   const [isNavVisible, setIsNavVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const handleScroll = () => {
-    if (window != undefined) {
+    if (typeof window != "undefined") {
       setIsNavVisible(prevScrollPos > window.scrollY || window.scrollY < 70);
       setPrevScrollPos(window.scrollY);
     }
   };
 
   useEffect(() => {
-    if (window != undefined) {
+    if (typeof window != "undefined") {
       window.addEventListener('scroll', handleScroll);
       return () => {
         window.removeEventListener('scroll', handleScroll);

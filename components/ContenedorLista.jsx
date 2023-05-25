@@ -69,7 +69,7 @@ export default function ContenedorLista() {
   };
 
   useEffect(() => {
-    if (window != undefined) {
+    if (typeof window != "undefined") {
       // Función para cargar más elementos cuando se llega al final de la página
       const handleScroll = () => {
         if (window.innerHeight + document.documentElement.scrollTop
@@ -124,14 +124,14 @@ export default function ContenedorLista() {
   const [isNavVisible, setIsNavVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const handleScroll = () => {
-    if (window != undefined) {
+    if (typeof window != "undefined") {
       setIsNavVisible(prevScrollPos > window.scrollY || window.scrollY < 70);
       setPrevScrollPos(window.scrollY);
     }
   };
 
   useEffect(() => {
-    if (window != undefined) {
+    if (typeof window != "undefined") {
       window.addEventListener('scroll', handleScroll);
       return () => {
         window.removeEventListener('scroll', handleScroll);
@@ -204,7 +204,7 @@ export default function ContenedorLista() {
 
                 <a href="#" className="a-filtros" >Filtros</a>
               </div>
-              {(window != undefined && window.scrollY > 0) && <div className="barra-azul"></div>}
+              {(typeof window != "undefined" && window.scrollY > 0) && <div className="barra-azul"></div>}
             </div>
 
 
