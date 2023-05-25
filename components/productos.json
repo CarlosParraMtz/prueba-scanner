@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 2,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 3,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 4,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 5,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 6,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 7,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 8,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 9,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 10,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 11,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 12,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 13,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 14,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 15,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 16,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 17,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 18,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+        {
+        "id": 19,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 20,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 21,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 22,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 23,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 24,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 25,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 26,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 27,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 28,
+        "image": "/products/1.jpg",
+        "name": "Bolso Alice",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 29,
+        "image": "/products/2.jpg",
+        "name": "Bolso Sarga",
+        "model": "Bolisarg",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    },
+    {
+        "id": 30,
+        "image": "/products/3.jpg",
+        "name": "Bolso Alice Frd",
+        "model": "Bolialic",
+        "precio": "$3,290.00",
+        "color": "negro",
+        "material": "fiama"
+    }
+]
